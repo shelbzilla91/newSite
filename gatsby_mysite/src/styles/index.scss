@@ -10,13 +10,8 @@ html {
     -moz-osx-font-smoothing: grayscale;
   }
 
-  ul{
-    display:flex;
-    justify-content: space-evenly;
-    font-family: 'helvetica';
-    text-decoration: none;
-    
-  }
+
+
   .aboutContainer{
     display: flex;
     flex-direction:row;
@@ -38,15 +33,13 @@ html {
  
   
   .profile {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 380px;
+    height: 200px;
+    border-radius: 10%;
     margin: 20px;
-    padding: 100px;
+    padding: 10px;
     display:flex;
     flex-direction: column;
-
-    border: yellow 5px dotted;
     object-fit: cover;
     object-position: center right;
   }
@@ -55,5 +48,16 @@ html {
 
 
 
- 
+  @-webkit-keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
  

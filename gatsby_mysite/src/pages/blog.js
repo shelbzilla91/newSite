@@ -1,20 +1,17 @@
 import React from 'react'
 import Layout from "../components/layout"
 import Menu from "../components/menu"
-import About from "../components/aboutContainer"
-import FactsContainer from '../components/factsContainer';
 
-const AboutPage = () => 
+
+const BlogPage = () => 
 <Layout>
     <Menu/>
         <div>
            
-            <About/>
-     
-             
+            <h1>HEY IM A BLOG</h1>    
                 
          
         </div>
    </Layout> 
 
-export default AboutPage;
+export default BlogPage;

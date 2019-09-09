@@ -1,0 +1,33 @@
+.menuStyle{
+    text-decoration: none;
+    background-color: yellow;
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    padding: 10px;
+    animation: slide-in-left 2s;
+  }
+
+  li{
+    text-decoration: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: end;
+    padding: 10px;
+  }
+  li.hover{
+      color:green;
+  }
+ 
+
+  ul{
+    text-decoration: none;
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: flex-start;
+    
+
+  }
