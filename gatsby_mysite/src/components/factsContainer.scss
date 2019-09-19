@@ -1,11 +1,24 @@
+
+$color-primary-0: #B3D373;	// Main Primary color */
+$color-primary-1: #D4F98A;
+$color-primary-2: #E8F8C7;
+$color-primary-3: #59771D;
+$color-primary-4: #3F4C25;
+
 .factsContainer{
     display:flex;
     flex-direction: row;
     justify-content:center;
-    background-color:red ;
-    width: 150%;
+    background-color:$color-primary-2 ;
+    width: 120%;
     height:100%;
     padding:10px;
+}
+h1{
+  color:$color-primary-2;
+  -webkit-box-shadow: inset 0 0 8px $color-primary-4;
+  -moz-box-shadow:    inset 0 0 8px $color-primary-4;
+  box-shadow:         inset 0 0 8px $color-primary-4;
 }
 .facts{
     display:flex;
