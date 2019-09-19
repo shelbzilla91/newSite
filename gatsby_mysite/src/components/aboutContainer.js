@@ -1,28 +1,26 @@
-
-import React from "react"
-import '../styles/index.scss'
+import React, { Component } from 'react'
 import '../components/aboutContainer.scss'
-import FactsContainer from "./factsContainer";
-import { motion } from "framer-motion"
+import { Message } from 'semantic-ui-react'
+import FactsContainer from './factsContainer'
 
-
+export default class aboutContainer extends Component {
   
+  render() {
+    return (
+      <div>
+      <div className='aboutContainer'>
+        <div className = 'profile'>
 
-const aboutContainer =() => 
-            <div className = "aboutContainer">
-
-        
-                <div className ="profile">
-             
-                <motion.div className= "name"
-  animate={{ x: 100 }}
-  transition={{ ease: "easeOut", duration: 2 }} 
-/>
-
-                </div>  
-                <FactsContainer/>
-            </div>
+        </div>
+   
+        <div>  <Message className= 'name' size='big'>This is big</Message></div>
+        <div>njkbskjbvks</div>
        
-        
+      </div>
+      <FactsContainer/>
+      </div>
+      
+    )
+  }
+}
 
-export default aboutContainer;

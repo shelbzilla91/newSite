@@ -1,3 +1,14 @@
+$color-primary-0: #B3D373;	// Main Primary color */
+$color-primary-1: #FFFFFF;
+$color-primary-2: #CDD1C4;
+$color-primary-3: #8ACF00;
+$color-primary-4: #466900;
+
+
+
+
+
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -5,7 +16,7 @@ html {
   }
   body {
     margin: 0;
-    background-color: #98EF79;
+    background-color:$color-primary-0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -18,7 +29,7 @@ html {
     justify-content:flex-start;
     width: 600px;
     height:500px;
-    border:  5px solid red;
+    background-color: $color-primary-3;
   }
  
 
@@ -26,7 +37,7 @@ html {
     width: 260px;
     height: 55px;
     border-radius: 10px;
-    background-color: #98EF79;
+    background-color: $color-primary-0;
     
   }
 

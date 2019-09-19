@@ -1,15 +1,21 @@
+$font-color:#F7F8F0;
+$color-secondary-1-3: #7CCC00;
+$color-secondary-1-2: #C9CEC2;
+
+
+
 a{
-    color: red;
+    color: $font-color;
     text-decoration: none;
    
 }
 a:hover{
-    color:#999999;
+    color:$color-secondary-1-2;
     text-decoration: none;
    
 }
 .headerDiv{
-    background-color:yellow;
+    background-color:$color-secondary-1-3;
     margin-Bottom: 2.45rem;
     text-decoration: none;
 }

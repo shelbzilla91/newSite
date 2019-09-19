@@ -1,6 +1,10 @@
+$color-primary-4: #466900;
+$color-secondary-1-1: #FFFFFF;
+
+
 .menuStyle{
     text-decoration: none;
-    background-color: yellow;
+    background-color:$color-primary-4;
     display:flex;
     flex-direction: row;
     width:100%;
@@ -15,6 +19,7 @@
     justify-content: space-around;
     justify-items: end;
     padding: 10px;
+    color:$color-secondary-1-1;
   }
   li.hover{
       color:green;
