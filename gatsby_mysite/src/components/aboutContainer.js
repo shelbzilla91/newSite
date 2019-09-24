@@ -1,23 +1,23 @@
 import React, { Component } from 'react'
-import '../components/aboutContainer.scss'
-import { Message } from 'semantic-ui-react'
+import aboutStyles from '../components/aboutContainer.module.scss'
 import FactsContainer from './factsContainer'
-import Slider from './slider'
+
 
 export default class aboutContainer extends Component {
   
   render() {
     return (
       <div >
-      <div className='aboutContainer'>
-        <div className = 'profile'>
-
+      <div className={aboutStyles.aboutContainer}>
+        
+        <div className = {aboutStyles.profile}>
+      profile
         </div>
    
-        <div className =" facts">  <Message className= 'name' size='large'>This is big</Message></div>
-        <div className= 'titles'>
+        <div className ={aboutStyles.facts}>  <div className= {aboutStyles.name} size='huge'>This is big</div></div>
+        <div className= {aboutStyles.titles}>
           
-          <Slider/>
+         
         </div>
        
       </div>

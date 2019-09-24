@@ -5,7 +5,14 @@ $color-primary-2: #E8F8C7;
 $color-primary-3: #59771D;
 $color-primary-4: #3F4C25;
 
+.header{
+    padding:1rem 0 3rem;
+    background-color:$color-primary-3;
+    margin-Bottom: 2.45rem;
+    text-decoration: none;
+    margin:0 50px 0 50px;
 
+}
 
 a{
     color: $font-color;
@@ -17,9 +24,5 @@ a:hover{
     text-decoration: none;
    
 }
-.headerDiv{
-    background-color:$color-primary-3;
-    margin-Bottom: 2.45rem;
-    text-decoration: none;
-}
+
 

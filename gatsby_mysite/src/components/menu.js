@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link';
-import '../components/menu.scss';
+import '../components/menu.module.scss';
 
 import { motion } from "framer-motion"
 

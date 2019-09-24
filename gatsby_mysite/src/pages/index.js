@@ -4,7 +4,6 @@ import Menu from "../components/menu"
 import Layout from "../components/layout"
 
 
-import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>

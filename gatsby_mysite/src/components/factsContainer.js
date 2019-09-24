@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
-import '../components/factsContainer.scss'
+import React from 'react'
+import  factsStyles from '../components/factsContainer.module.scss'
 import { Container , Header} from 'semantic-ui-react'
 
 const FactsContainer = () => (
 <Container>
-    <Header as='h1'>First Header</Header>
+    <Header as={factsStyles.h1}>First Header</Header>
   
     <p>
       Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
