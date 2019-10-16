@@ -1,28 +1,31 @@
-$font-color: #E8F8C7;
-$color-primary-0: #B3D373;	// Main Primary color */
-$color-primary-1: #D4F98A;
-$color-primary-2: #E8F8C7;
-$color-primary-3: #59771D;
-$color-primary-4: #3F4C25;
+$purple: #8963F0;
+$font-color:#F3C52C;
+$semi-purple:#9B86EA;
+
 
 .header{
     padding:1rem 0 3rem;
-    background-color:$color-primary-3;
     margin-Bottom: 2.45rem;
     text-decoration: none;
-    margin:0 50px 0 50px;
+    margin:0 30px 0 30px;
+    background-color:$purple;
+  
 
 }
 
 a{
-    color: $font-color;
+
     text-decoration: none;
+    color:$font-color;
    
 }
 a:hover{
-    color:$color-primary-4;
-    text-decoration: none;
+  
+    text-decoration: none; 
+}
+h1{
+    padding:10px;
+    justify-content: center;
    
 }
-
 

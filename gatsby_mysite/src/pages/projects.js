@@ -2,7 +2,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import Menu from "../components/menu"
-import Demo3 from "../components/Demo3";
 
 
 
@@ -28,9 +27,7 @@ const ProjectsPage = () => (
    
 </div>
 
-<div>
-<Demo3 />
-</div>
+
 
 
   </Layout>

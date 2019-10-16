@@ -6,20 +6,11 @@ import { motion } from "framer-motion"
 
 const menu =() => (
 
-        <div style = {{
-            background: '#75C558',
-            paddingTop: '10px',
-            display:'flex',
-               flexDirection:'row',
-               justifyContent:'space-evenly',
-               listStyle:'none',
-         
-            
-        }}>
+        <div>
           
            <div className = 'menuStyle'> <motion.div
-    whileHover={{ scale: 1.1 }}
-    whileTap={{ scale: 0.9 }}
+    whileHover={{ scale: 1.4 }}
+    whileTap={{ scale: 1.4 }}
   >             <ul>
       
                 <li><Link to = "/">Home</Link></li>
@@ -34,3 +25,4 @@ const menu =() => (
     
 
 export default menu;
+

@@ -1,25 +1,18 @@
 
-$font-stack:'Questrial', sans-serif;
-
-$color-primary-0: #B3D373;	// Main Primary color */
-$color-primary-1: #D4F98A;
-$color-primary-2: #E8F8C7;
-$color-primary-3: #59771D;
-$color-primary-4: #3F4C25;
-
+$purple: #8963F0;
+$font-color:#F3C52C;
 
 .aboutContainer{
     display:flex;
     flex-direction: row;
     justify-content: flex-start;
-    font-family: $font-stack;
     width:100%;
     height:300px;
+    background-color: $purple;
 
 }
 .titles{
     width:40%;
-    background-color: $color-primary-2;
     margin:13px;
     
 }
@@ -41,7 +34,6 @@ $color-primary-4: #3F4C25;
 .name{
 display:flex;
  flex-direction: column;
- background-color:$color-primary-3;
  width:100%;
  height:53%;
  margin: 2px;
@@ -57,7 +49,7 @@ display:flex;
     height: 500px;
     padding:3px;
     margin:13px;
-    background-color: $color-primary-0;
+    background-color: red;
 
 }
 

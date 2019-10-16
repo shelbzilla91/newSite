@@ -1,10 +1,13 @@
 module.exports = {
+  
 
   siteMetadata: {
     title: `Shelby M Baker Web Development`,
     description: `developer website using GatsbyJS, React, and GraphQL`,
     author: `Shelby Baker`,
+    handle: `SMB Web Development 2019`,
   },
+  
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -31,8 +34,10 @@ module.exports = {
        
       },
     },
+    
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
+  
 }
